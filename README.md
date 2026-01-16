@@ -87,7 +87,6 @@ Instacart is an online grocery delivery platform with strong existing sales. Thi
 - NumPy - Numerical operations
 - matplotlib - Data visualization
 - seaborn - Statistical visualizations
-- scipy - Statistical analysis
 
 ### Skills Demonstrated
 - Data wrangling and cleaning
@@ -97,29 +96,28 @@ Instacart is an online grocery delivery platform with strong existing sales. Thi
 - Customer segmentation and profiling
 - Data visualization and storytelling
 
-## Project Structure
+## Project Files
 
-```
-instacart-basket-analysis/
-├── scripts/                    # Jupyter notebooks
-│   ├── 4.2 Importing libraries and Python data types.ipynb
-│   ├── 4.3 Intro to Pandas.ipynb
-│   ├── 4.4 Data Wrangling & Subsetting.ipynb
-│   ├── 4.5 Data Consistency Checks.ipynb
-│   ├── 4.6a Combining & Exporting Data.ipynb
-│   ├── 4.6b Task for ords_prods_merge.ipynb
-│   ├── 4.7 Deriving New Variables.ipynb
-│   ├── 4.8 Grouping Data & Aggregating Variables.ipynb
-│   ├── 4.9 Part 1_Intro to Data Visualization with Python.ipynb
-│   ├── 4.9 Part 2_Introduction to Visualization with Python.ipynb
-│   ├── 4.10 IC_Customer Profiling_Part 1.ipynb
-│   └── 4.10_A4_Charts_Only.ipynb
-├── visualizations/             # All chart outputs (.png)
-└── reports/
-    └── A4_final_report_Jessica_Duong.xlsx
-```
+### Scripts (`scripts/03 Scripts/`)
 
-## Visualizations
+| File | Description |
+|------|-------------|
+| `4.2 Importing libraries and Python data types.ipynb` | Library imports and data type fundamentals |
+| `4.3 Intro to Pandas.ipynb` | DataFrame operations and pandas basics |
+| `4.4 Data Wrangling & Subsetting.ipynb` | Data cleaning and filtering techniques |
+| `4.5 Data Consistency Checks.ipynb` | Missing values, duplicates, and data validation |
+| `4.6a Combing & Exporting Data.ipynb` | Merging datasets and exporting results |
+| `4.6b Task for ords_prods_merge.ipynb` | Orders and products merge operations |
+| `4.7 Deriving New Variables.ipynb` | Creating flags, categories, and calculated fields |
+| `4.8 Grouping Data & Aggregating Variables.ipynb` | GroupBy operations and aggregations |
+| `4.8 Practice Notebook_Grouping Data & Aggregating Variables.ipynb` | Additional grouping practice exercises |
+| `4.9 _Part 1_Intro to Data Visualization with Python.ipynb` | Matplotlib and seaborn fundamentals |
+| `4.9_Part 2_Introduction to Visualization with Python.ipynb` | Advanced visualization techniques |
+| `4.10 IC_Customer Profiling_Part 1.ipynb` | Customer segmentation and profiling analysis |
+| `4.10_A4_Additional Charts for Income Comparison.ipynb` | Income-based customer analysis |
+| `4.10_A4_Charts_Only.ipynb` | Final visualization outputs |
+
+- ### Visualizations (`visualizations/Visualizations/`)
 
 The analysis includes 27 visualizations covering:
 - Order patterns by day and hour
@@ -129,11 +127,52 @@ The analysis includes 27 visualizations covering:
 - Customer persona profiling
 - Loyalty segment analysis
 
+| File | Description |
+|------|-------------|
+| `F1_bar_orders_days_of_week.png` | Order volume by day of week |
+| `F2_hist_orders_hour_of_day.png` | Order distribution by hour |
+| `F3_line_avg_spending_by_hour.png` | Average spending patterns by hour |
+| `F4_line_avg_spending_by_day.png` | Average spending patterns by day |
+| `F5_scatter_age_vs_income.png` | Age and income correlation |
+| `F6_line_avg_dependents_by_age_group.png` | Household size by age group |
+| `F7_bar_loyalty_distribution.png` | Customer loyalty tier distribution |
+| `F8_scatter_prices_outliers.png` | Price distribution and outlier detection |
+| `F9_chart_05_department_dominance.png` | Department order volume comparison |
+| `F10_chart_01_revenue_concentration.png` | Revenue concentration by tier |
+| `F11_chart_06_addon_pareto.png` | Add-on purchase Pareto analysis |
+| `F12_chart_07_core_vs_addon.png` | Core vs add-on revenue comparison |
+| `F13_chart_02_tier1_demographics.png` | Tier-1 customer demographics |
+| `F14_chart_03_family_vs_single.png` | Family vs single household comparison |
+| `F15_chart_04_income_split.png` | Revenue by income segment |
+| `F16_chart_12_regional_concentration.png` | Regional revenue distribution |
+| `F17_chart_13_regional_department_mix.png` | Department preferences by region |
+| `F18_chart_14_regional_efficiency.png` | Revenue efficiency by region |
+| `F19_chart_08_profile_frequency.png` | Order frequency by customer profile |
+| `F20_chart_09_profile_revenue.png` | Revenue by customer profile |
+| `F21_chart_10_dumbbell_family_single.png` | Family vs single spending comparison |
+| `F22_chart_11_revenue_efficiency_persona.png` | Revenue efficiency by persona |
+| `NEW_F2.4_Income_vs_spending_by_region.png` | Income vs spending regional analysis |
+| `NEW_F2.5_Age_vs_income.png` | Age and income relationship |
+| `NEW_F3.3_dept_by_region_all.png` | Department breakdown by region |
+| `NEW_F7.5_top5_depts_loyal_regular.png` | Top departments for loyal customers |
+| `NEW_F7.6_bottom5_depts_loyal_regular.png` | Bottom departments for loyal customers |
+| `chart_02_tier1_demographics.png` | Tier-1 demographic breakdown |
+
+### Reports (`reports/05 Sent to clients/`)
+
+| File | Description |
+|------|-------------|
+| `A4_final_report_Jessica_Duong.xlsx` | Final analysis report with all findings and recommendations |
+
+### Project Management (`project-management/`)
+
+| File | Description |
+|------|-------------|
+| `Instacart_Basket_Analysis_Project_Brief.pdf` | Original project brief and requirements |
 
 ## Author
 **Jess Duong**  
 Aspiring Business Intelligence Analyst  
-[LinkedIn](#) | [Portfolio](#)
 
 
 ## Data Citation
