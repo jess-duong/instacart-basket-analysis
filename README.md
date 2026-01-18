@@ -98,7 +98,7 @@ Instacart is an online grocery delivery platform with strong existing sales. Thi
 
 ## Project Files
 
-### Scripts (`scripts/03 Scripts/`)
+### Scripts
 
 | File | Description |
 |------|-------------|
@@ -117,7 +117,7 @@ Instacart is an online grocery delivery platform with strong existing sales. Thi
 | `4.10_A4_Additional Charts for Income Comparison.ipynb` | Income-based customer analysis |
 | `4.10_A4_Charts_Only.ipynb` | Final visualization outputs |
 
-- ### Visualizations (`visualizations/Visualizations/`)
+- ### Visualizations
 
 The analysis includes 27 visualizations covering:
 - Order patterns by day and hour
@@ -158,13 +158,13 @@ The analysis includes 27 visualizations covering:
 | `NEW_F7.6_bottom5_depts_loyal_regular.png` | Bottom departments for loyal customers |
 | `chart_02_tier1_demographics.png` | Tier-1 demographic breakdown |
 
-### Reports (`reports/05 Sent to clients/`)
+### Reports
 
 | File | Description |
 |------|-------------|
 | `A4_final_report_Jessica_Duong.xlsx` | Final analysis report with all findings and recommendations |
 
-### Project Management (`project-management/`)
+### Project Management
 
 | File | Description |
 |------|-------------|
