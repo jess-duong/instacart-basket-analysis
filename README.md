@@ -181,3 +181,6 @@ Aspiring Business Intelligence Analyst
 
 *Note: Instacart is a real company and the data used in this project is publicly available. The business context and project brief were adapted for academic purposes as part of the CareerFoundry Analytics program.*
 
+*Python code development supported by Stack Overflow community solutions and AI-assisted debugging. Visualization narrative structure optimized with AI assistance to enhance stakeholder communication. All data analysis methodology, strategic insights, and business recommendations represent original analytical work.*
+
+
