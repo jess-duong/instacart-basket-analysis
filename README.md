@@ -172,7 +172,7 @@ The analysis includes 27 visualizations covering:
 
 ## Author
 **Jess Duong**  
-Aspiring Business Intelligence Analyst  
+Data Analyst
 
 
 ## Data Citation
