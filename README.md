@@ -62,7 +62,7 @@ Instacart, an online grocery delivery platform with strong existing sales, neede
 
 ## Data Scope & Methodology
 
-**Dataset**: Instacart Online Grocery Shopping Dataset 2017 (Kaggle)  
+**Dataset**: (https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis) (Kaggle)  
 **Size**: 32.4M order-product records, 206,209 customers, 3.4M orders  
 **Time Period**: Historical transaction data (2017)  
 **Product Coverage**: 49,693 products across 21 departments
