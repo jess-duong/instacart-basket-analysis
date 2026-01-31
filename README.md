@@ -144,7 +144,7 @@ Data Analyst | [LinkedIn](https://linkedin.com/in/jessica-duong-35690847/) | [Gi
 
 ---
 
-**Data Citation**: "The Instacart Online Grocery Shopping Dataset 2017", Accessed from www.instacart.com/datasets/grocery-shopping-2017 via Kaggle.
+**Data Citation**: "The Instacart Online Grocery Shopping Dataset 2017", Accessed from (https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis) via Kaggle on December 2025.
 
 *Note: Instacart is a real company and the data used in this project is publicly available. Customer demographics are synthetic data provided by CareerFoundry for educational purposes.*
 
