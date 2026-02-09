@@ -140,7 +140,7 @@ Python code development supported by Stack Overflow community solutions and AI-a
 ## Author
 
 **Jess Duong**  
-Data Analyst | [LinkedIn](https://linkedin.com/in/jessica-duong-35690847/) | [GitHub](https://github.com/jess-duong) | duong.t.jess@gmail.com
+Data Analyst | [LinkedIn](https://www.linkedin.com/in/jesstduong/) | [GitHub](https://github.com/jess-duong) | duong.t.jess@gmail.com
 
 ---
 
