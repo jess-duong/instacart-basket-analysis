@@ -149,3 +149,6 @@ Data Analyst | [LinkedIn](https://www.linkedin.com/in/jess-duong/) | [Portfolio]
 *Note: Instacart is a real company and the data used in this project is publicly available. Customer demographics are synthetic data provided by CareerFoundry for educational purposes.*
 
 *For questions about methodology or to discuss this analysis, please reach out via [LinkedIn](https://linkedin.com/in/jessica-duong-35690847/) or open an issue in this repository.*
+
+## Acknowledgments
+AI tools were used to support portions of this project, including documentation and presentation. All analysis, interpretation, and recommendations are my own.
