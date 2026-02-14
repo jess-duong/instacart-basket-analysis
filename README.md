@@ -1,154 +1,109 @@
-# Instacart Basket Analysis
+# Instacart Customer Segmentation & Revenue Optimization
 
-**Python-based customer segmentation and purchasing behavior analysis to inform targeted marketing strategies for an online grocery delivery platform.**
+**Python-based behavioral analytics across 32.4M transactions to identify high-value customer segments and optimize marketing allocation for an online grocery platform.**
 
-[![View Report](https://img.shields.io/badge/View-Analysis_Report-blue)](reports/05%20Sent%20to%20clients/)
-[![View Code](https://img.shields.io/badge/View-Python_Notebooks-green)](scripts/03%20Scripts/)
-
-## Project Overview
-
-Instacart, an online grocery delivery platform with strong existing sales, needed to understand customer purchasing patterns to optimize marketing campaigns. This Python analysis examined 32.4 million order-product records across 206,000+ customers to identify high-value segments, peak ordering times, and product category performance.
-
-### Business Questions
-- When do customers place orders and what products do they buy?
-- Who are Instacart's most valuable customer segments?
-- What product categories drive revenue vs represent growth opportunities?
-- How should marketing resources be allocated across demographics and regions?
-
-### Key Findings
-- **Older adults (56+) generate 80% of Tier-1 revenue** despite representing 40.5% of customers
-- **Family households account for 87% of core revenue**: 75% of order volume and spending
-- **Produce and Dairy dominate**: 72% of Tier-1 revenue from grocery staples, not premium products
-- **High-income customers are undermonetized**: Spending only 1.08% of income vs 2.35% for low-income
-- **Regional efficiency is flat (~1.0x)**: Revenue patterns consistent nationwide; skip regional customization
-
-## Tools & Techniques
-
-**Tools**: Python (pandas, NumPy, matplotlib, seaborn), Jupyter Notebook  
-**Skills**: Data wrangling, customer segmentation, exploratory data analysis, data visualization, business intelligence
-
-### Analytical Approach
-- Cleaned and merged 5 datasets totaling 32.4M records using pandas
-- Created customer segmentation framework: Loyalty tiers, spending tiers, order frequency groups
-- Derived behavioral flags and categorical variables for profiling
-- Built revenue concentration analysis (Tier-1/2/3 product categorization)
-- Developed customer personas combining demographics with purchasing patterns
-- Created 27 visualizations using matplotlib and seaborn for stakeholder presentation
-
-## Repository Contents
-```
-├── scripts/03 Scripts/         # 14 Jupyter notebooks (data cleaning, merging, analysis, visualization)
-├── visualizations/             # 27 charts covering ordering patterns, demographics, revenue analysis
-├── reports/05 Sent to clients/ # Final analysis report with findings and recommendations
-├── project-management/         # Project brief and data documentation
-└── README.md                   # Project documentation
-```
-
-## Strategic Recommendations
-
-### Protect Core Revenue Engine
-- **Focus on family households**: 87% of Tier-1 revenue comes from families; launch family savings programs with subscription discounts, bulk bundles, and recurring order reminders
-- **Position as staples-first platform**: Produce and Dairy generate >70% of core revenue; emphasize everyday essentials over premium positioning
-
-### Optimize Marketing Efficiency
-- **Deploy national campaigns**: Revenue efficiency flat across regions (~1.0x); skip expensive regional customization
-- **Target low-utilization windows**: Shift ad spend to 12am-6am Tue-Wed with automated campaigns to capture incremental demand
-- **Monetize high-efficiency personas**: Prioritize health-focused families (1.20x efficiency) and stock-up shoppers over snack-only customers
-
-### Unlock Growth Opportunities
-- **Build Tier-2 add-on strategy**: Target snacks, beverages, bakery, prepared meals (27.6% of revenue) with persona-specific bundles at checkout
-- **Expand bulk offerings**: Bulk department severely underperforming (33,451 orders); capture high-income customers currently shopping Costco/Sam's Club
-- **Activate high-income segment**: High earners spend same absolute amount as middle-income (~$1,600) but only 1.08% of income vs 2.35% for low-income; untapped potential for premium subscription tiers
-
-## Data Scope & Methodology
-
-**Dataset**: (https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis) (Kaggle)  
-**Size**: 32.4M order-product records, 206,209 customers, 3.4M orders  
-**Time Period**: Historical transaction data (2017)  
-**Product Coverage**: 49,693 products across 21 departments
-
-### Customer Segmentation Framework
-- **Loyalty Tiers**: New (≤10 orders), Regular (11-40), Loyal (>40)
-- **Spending Tiers**: Low spender (≤$10 avg/order), High spender (>$10 avg/order)
-- **Order Frequency**: Frequent, Regular, Non-frequent based on median days between orders
-- **Revenue Tiers**: Tier-1 (Core 47.9%), Tier-2 (Add-ons 27.6%), Tier-3 (Long-tail 24.5%)
-
-### Analytical Findings
-- **Peak ordering**: Saturday/Sunday 10am-4pm; lowest Tuesday/Wednesday 2am-6am
-- **Demographic concentration**: Middle-income (48.3%), older adults (40.5%), family households (dominant)
-- **Geographic patterns**: South leads (33.3%), West (25.6%), Midwest (23.5%), Northeast (17.6%)
-- **Product mix**: Consistent nationwide; no regional preference differentiation
-
-### Data Limitations
-- **2017 dataset**: Purchasing patterns may have evolved with pandemic and delivery market maturation
-- **Customer demographics synthetic**: CareerFoundry educational dataset appended to actual Instacart orders
-- **Missing temporal trends**: Snapshot analysis without year-over-year growth metrics
-- **No promotional data**: Unable to assess impact of discounts or marketing campaigns on behavior
-
-## Analysis Highlights
-
-### Order Patterns
-- Clear weekday vs weekend divide; families shop Saturday/Sunday
-- Daytime ordering dominates (10am-4pm); overnight extremely low
-- Average order value consistent across time periods (~$10)
-
-### Customer Profiling
-- **High-frequency family personas**: ~75% of orders and revenue
-- **Health-focused families**: Highest revenue efficiency at 1.20x
-- **Stock-up families**: Strong efficiency with bulk purchasing behavior
-- **Snack-focused personas**: Lower efficiency; deprioritize in targeting
-
-### Revenue Concentration
-- **Grocery staples dominate**: Produce + Dairy = 72% of Tier-1 revenue
-- **Add-on categories underperforming**: Snacks, beverages, bakery represent growth opportunity
-- **Bulk severely underpenetrated**: Only 33,451 orders vs millions in core departments
-
-## Documentation
-
-- **[Python Analysis Notebooks](scripts/03%20Scripts/)**: 14 Jupyter notebooks covering data wrangling, merging, segmentation, and visualization
-- **[Visualizations](visualizations/Visualizations/)**: 27 charts analyzing ordering patterns, demographics, revenue distribution, and customer personas
-- **[Final Report](reports/05%20Sent%20to%20clients/)**: Complete findings with strategic recommendations and supporting analysis
-- **[Project Brief](project-management/)**: Original business requirements and analytical scope
-
-## Project Context
-
-This project was completed as part of CareerFoundry's Data Analytics program, demonstrating proficiency in:
-- Large-scale data manipulation with pandas (32M+ records)
-- Customer segmentation and behavioral analysis
-- Revenue concentration and product mix analysis
-- Data visualization and storytelling with matplotlib/seaborn
-- Translating analytical insights into actionable marketing strategy
-
-### Technical Approach
-- **Data Pipeline**: Import → Clean → Merge → Derive → Aggregate → Visualize
-- **Segmentation Logic**: Multi-dimensional framework combining demographics and behavior
-- **Visualization Strategy**: 27 charts designed for non-technical stakeholder presentation
-- **Code Organization**: Modular notebooks organized by analytical phase
-
-### Development Notes
-Python code development supported by Stack Overflow community solutions and AI-assisted debugging. Visualization narrative structure optimized with AI assistance to enhance stakeholder communication. All data analysis methodology, strategic insights, and business recommendations represent original analytical work.
-
-## Future Analysis Opportunities
-
-### Recommended Enhancements
-- **Predictive churn modeling**: Identify at-risk customers before they lapse
-- **Market basket analysis**: Build product recommendation engine using association rules
-- **Lifetime value forecasting**: Predict customer LTV at acquisition for targeting optimization
-- **A/B testing framework**: Design experiments to validate add-on bundling strategies
-- **Real-time segmentation**: Deploy dynamic persona assignment for personalized marketing
-
-## Author
-
-**Jess Duong**  
-Data Analyst | [LinkedIn](https://www.linkedin.com/in/jess-duong/) | [Portfolio](https://jess-duong.github.io/)| duong.t.jess@gmail.com
+[![View Report](https://img.shields.io/badge/Excel-Final_Analysis_Report-2B5329?style=flat-square&logo=microsoftexcel&logoColor=white)](reports/05%20Sent%20to%20clients/)
+[![View Notebooks](https://img.shields.io/badge/Jupyter-Python_Notebooks-6AAB73?style=flat-square&logo=jupyter&logoColor=white)](scripts/03%20Scripts/)
+[![View Visualizations](https://img.shields.io/badge/Charts-27_Visualizations-C4A84D?style=flat-square&logo=python&logoColor=white)](visualizations/Visualizations/)
 
 ---
 
-**Data Citation**: "The Instacart Online Grocery Shopping Dataset 2017", Accessed from (https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis) via Kaggle on December 2025.
+## Project Background
 
-*Note: Instacart is a real company and the data used in this project is publicly available. Customer demographics are synthetic data provided by CareerFoundry for educational purposes.*
+Instacart is an online grocery delivery app with strong existing sales but limited visibility into which customer segments drive the most value. The marketing team needed a data-driven segmentation strategy to move from one-size-fits-all campaigns to targeted outreach based on who customers are, what they buy, and when they shop.
 
-*For questions about methodology or to discuss this analysis, please reach out via [LinkedIn](https://linkedin.com/in/jessica-duong-35690847/) or open an issue in this repository.*
+This analysis cleaned, merged, and analyzed 32.4 million order-product records across 206,000+ customers and 5 datasets to build a customer segmentation framework identifying high-value personas, revenue concentration patterns, and actionable marketing recommendations.
+
+## Data Structure
+
+Five datasets were merged into a single analytical frame using pandas: orders, products, order-products (the 32.4M transaction-level table), departments, and a customer demographics dataset. Behavioral flags, loyalty tiers, spending tiers, and revenue classifications were derived to enable multi-dimensional customer profiling.
+
+**Datasets merged:** Orders (3.4M) · Products (49,693 across 21 departments) · Order-Products (32.4M records) · Departments · Customer Demographics (206,209 customers)
+
+**Segmentation framework built:**
+- **Loyalty tiers:** New (≤10 orders), Regular (11–40), Loyal (>40)
+- **Spending tiers:** Low spender (≤$10 avg), High spender (>$10 avg)
+- **Revenue tiers:** Tier-1 Core (47.9%), Tier-2 Add-ons (27.6%), Tier-3 Long-tail (24.5%)
+
+## Executive Summary
+
+Revenue is heavily concentrated in a narrow customer profile: **older adult family households buying grocery staples.** This group funds nearly 80% of top-tier revenue, and the product mix is dominated by Produce and Dairy rather than premium items. Meanwhile, high-income customers are significantly undermonetized, and regional differences are essentially flat, meaning marketing can scale nationally without costly customization.
+
+### Top Findings
+
+**1. Adults 56+ generate 79.5% of Tier-1 revenue despite representing 40.5% of customers.**
+This demographic is the single most important segment for Instacart's core business. Middle-aged and young adults together account for only about 20% of top-tier revenue, making the 56+ group the clear priority for retention and loyalty investment.
+
+**2. Family households account for 87% of order volume, making them the core revenue engine.**
+Families generate roughly 75% of both orders and spending. Single-person households are a small minority of activity. Any marketing strategy that doesn't prioritize family shoppers is misallocating resources.
+
+**3. High-income customers ($120K+) spend the same per order as middle-income customers.**
+Despite having significantly more purchasing power, high earners spend only about 1.08% of income on Instacart versus 2.35% for low-income customers. This represents a large untapped upsell opportunity through premium offerings, bulk options, and subscription tiers.
+
+**4. Product mix and revenue efficiency are virtually identical across all four U.S. regions.**
+Produce holds ~30% of revenue share in every region, with all other departments within 1 percentage point of each other. Regional customization adds cost without meaningful lift. National campaigns perform just as well.
+
+## Insights Deep Dive
+
+### Revenue Concentration
+
+Instacart's revenue is structurally dependent on older adult households. The 56+ age group funds nearly 80% of Tier-1 revenue, while middle-aged and young adults contribute roughly 11% and 10% respectively. This concentration means retention of the 56+ segment is critical, and any churn in this group would disproportionately impact the business.
+
+![Tier-1 Revenue by Age Group](visualizations/Visualizations/instacart-findings.jpg)
+
+### Spending Gap
+
+High-income customers represent a significant growth opportunity. Despite earning $120K+, their mean order value is comparable to middle-income shoppers across all regions. The scatter plot below shows spending is flat regardless of income level, suggesting Instacart hasn't given high earners a compelling reason to spend more. Bulk options, premium assortments, and subscription models could unlock this segment.
+
+![Income vs Spending by Region](visualizations/Visualizations/instacart-constraints.jpg)
+
+### Regional Consistency
+
+The product mix heatmap reveals virtually no regional differentiation in purchasing behavior. Every region allocates roughly the same share of revenue to the same departments in the same order. This is a strategic advantage: Instacart can run centralized national campaigns without sacrificing performance, avoiding the cost and complexity of regional customization.
+
+![Regional Department Mix](visualizations/Visualizations/instacart-deliverables.jpg)
+
+## Recommendations
+
+**Protect the Core Revenue Engine**
+Prioritize family households and 56+ adults with loyalty programs, subscription discounts, and recurring order reminders. Produce and Dairy drive over 70% of Tier-1 revenue, so position Instacart as a staples-first platform rather than a premium or specialty service.
+
+**Activate High-Income Customers**
+Launch bulk and premium product offerings targeting the $120K+ segment. Their spending is flat relative to income, creating room for upsell through curated premium bundles, wholesale-style options, and higher-tier subscription plans.
+
+**Simplify Marketing with National Campaigns**
+Revenue efficiency is flat (~1.0x) across all regions and product mix is nearly identical. Skip regional customization and run centralized campaigns, reallocating the saved budget to low-utilization time windows (12am–6am Tue–Wed) to capture incremental demand.
+
+**Build a Tier-2 Add-On Strategy**
+Tier-2 add-on products (snacks, beverages, bakery, prepared meals) represent 27.6% of revenue with room to grow. Deploy dynamic cross-sell recommendations at checkout and persona-specific bundles to increase average order value.
+
+## Tools & Skills
+
+| Tool | Use |
+|------|-----|
+| Python (pandas, NumPy) | Data cleaning, merging, segmentation framework, behavioral flagging |
+| matplotlib, seaborn | 27 visualizations for stakeholder reporting |
+| Jupyter Notebook | Analysis pipeline across 14 notebooks |
+| Excel | Final report delivery to stakeholders |
+
+**Analytical techniques demonstrated:** Large-scale data wrangling (32M+ rows) · Multi-dimensional customer segmentation · Revenue concentration analysis · Behavioral flagging and derived variables · Customer persona development · Regional efficiency benchmarking
+
+## Deliverables
+
+| Document | Description |
+|----------|-------------|
+| [Final Analysis Report](reports/05%20Sent%20to%20clients/) | Complete findings with 15 business questions answered and strategic recommendations |
+| [Python Notebooks](scripts/03%20Scripts/) | 14 Jupyter notebooks covering the full analysis pipeline |
+| [Visualizations](visualizations/Visualizations/) | 27 charts analyzing ordering patterns, demographics, and revenue distribution |
+
+## Author
+
+**Jessica Duong**
+Data Analyst | [LinkedIn](https://www.linkedin.com/in/jess-duong/) | [Portfolio](https://jess-duong.github.io/) | duong.t.jess@gmail.com
+
+---
+
+*Data source: "The Instacart Online Grocery Shopping Dataset 2017", accessed via [Kaggle](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis). Customer demographics are synthetic data provided for educational purposes.*
 
 ## Acknowledgments
 AI tools were used to support portions of this project, including documentation and presentation. All analysis, interpretation, and recommendations are my own.
