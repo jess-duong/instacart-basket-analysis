@@ -2,7 +2,7 @@
 
 **Python-based behavioral analytics across 32.4M transactions to identify high-value customer segments and optimize marketing allocation for an online grocery platform.**
 
-[![View Report](https://img.shields.io/badge/Excel-Final_Analysis_Report-2B5329?style=flat-square&logo=microsoftexcel&logoColor=white)](reports/05%20Sent%20to%20clients/)
+[![View Report](https://img.shields.io/badge/Excel-Final_Analysis_Report-2B5329?style=flat-square&logo=microsoftexcel&logoColor=white)](reports/05%20Sent%20to%20clients/A4_final_report_Jessica_Duong.xlsx)
 [![View Notebooks](https://img.shields.io/badge/Jupyter-Python_Notebooks-6AAB73?style=flat-square&logo=jupyter&logoColor=white)](scripts/03%20Scripts/)
 [![View Visualizations](https://img.shields.io/badge/Charts-27_Visualizations-C4A84D?style=flat-square&logo=python&logoColor=white)](visualizations/Visualizations/)
 
