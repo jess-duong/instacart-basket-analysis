@@ -99,6 +99,7 @@ Tier-2 add-on products (snacks, beverages, bakery, prepared meals) represent 27.
 ## Author
 
 **Jessica Duong**
+
 Data Analyst | [LinkedIn](https://www.linkedin.com/in/jess-duong/) | [Portfolio](https://jess-duong.github.io/) | duong.t.jess@gmail.com
 
 ---
